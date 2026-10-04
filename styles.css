@@ -34,6 +34,10 @@
     color: var(--paletteOrange);
 }
 
+.textGreen {
+    color: var(--paletteGreen);
+}
+
 .sorean {
     font-family: SoreanBold;
 }
@@ -304,4 +308,118 @@ footer div h1 {
 
 .privacy_policy_list li {
     text-align: left;
+}
+
+/* SHOP PAGE
+-------------------------------- */
+
+.shop_page {
+    padding-left: 40px;
+    padding-right: 40px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 20px;
+}
+
+.shop_title {
+    margin: 10px;
+    font-size: 40px;
+}
+
+.coocoo {
+    width: 45vw;
+    height: 40vw;
+    border-radius: 16px;
+    background-image: url(./imgs/cola\ final.png);
+    background-repeat: repeat-x;
+    background-size: 25vw;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.coocoobox {
+    width: 45vw;
+    height: 40vw;
+    grid-column-start: 7;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+/* .drink_desc1 {
+    grid-column-start: 7;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.sb1 {
+    grid-column-start: 7;
+    grid-column-end: 13;
+    grid-row-start: 2;
+    grid-row-end: 3; 
+} */
+
+
+.diet {
+    width: 45vw;
+    height: 40vw;
+    border-radius: 16px;
+    background-image: url(./imgs/diet\ final.png);
+    background-repeat: repeat-x;
+    background-size: 25vw;
+    grid-column-start: 7;
+    grid-column-end: 13;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.dietbox {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.orange {
+    width: 45vw;
+    height: 40vw;
+    border-radius: 16px;
+    background-image: url(./imgs/orange\ final.png);
+    background-repeat: repeat-x;
+    background-size: 25vw;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+
+.orangebox {
+    grid-column-start: 7;
+    grid-column-end: 13;
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+
+.strawberry {
+    width: 45vw;
+    height: 40vw;
+    border-radius: 16px;
+    background-image: url(./imgs/strawberry\ final.png);
+    background-repeat: repeat-x;
+    background-size: 25vw;
+    grid-column-start: 7;
+    grid-column-end: 13;
+    grid-row-start: 7;
+    grid-row-end: 9;
+}
+
+.strawbox {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 7;
+    grid-row-end: 9;
 }
