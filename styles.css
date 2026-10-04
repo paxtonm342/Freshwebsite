@@ -62,9 +62,7 @@ header div {
 
 nav {
     padding: 0;
-    /* display: inline-block; */
-    
-
+    align-self: center;
 }
 
 .nav_logo {
@@ -77,22 +75,21 @@ nav {
 }
 
 .nav_list {
-    margin: 0;
+    margin: 8px;
     padding: 0;
-    padding-bottom: 20px;
     list-style-type: none;
     display: flex;
     justify-content: space-around;
 }
 
 .nav_list_item {
-    display: inline;
-    margin: 5px;
+    margin: 0 8px;
     
 }
 
 .nav_button {
     text-decoration: none;
+    padding: 4px 8px;
 }
 
 .divider_bar {
@@ -146,27 +143,33 @@ nav {
 /* MAIN - SECTION 1
 -------------------------------- */
 
-.section1_container {
-    /* display: flex; */
-    width: 100%;
-    height: 200px;
-    /* justify-content: center; */
+.section1 h1 {
+    font-size: 68px;
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
-.section1_pics {
-    height: 100%; 
-    width: 100%;
-    z-index: -1;
+.section1_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url("./imgs/home\ page\ edited.png");
+    background-size: 100vw, 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 40vw;
+    
 }
 
 .section1_button {
-    position: relative;
     z-index: 1;
-    font-size: 16px;
+    font-size: 24px;
+    margin: auto auto 20px;
     padding: 10px;
     color: white;
     background-color: var(--paletteOrange);
-    bottom: 50px;
     border-radius: 6px;
 }
 
@@ -174,13 +177,48 @@ nav {
 -------------------------------- */
 
 .section2 {
+    display: inline-flex;
+    justify-content: center;
     background-color: var(--paletteGreen);
     color: white;
 }
 
 .section2_img {
-    height: 100%;
-    width: 100%;
+    height: 55vw;
+    width: 55vw;
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
+
+.section2_button {
+    font-size: 24px;
+    margin: auto auto 20px;
+    padding: 10px;
+    color: white;
+    background-color: var(--paletteOrange);
+    border-radius: 6px;
+}
+
+.section2_left h1 {
+    text-align: left;
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 5vw;
+    padding-bottom: 10px;
+    font-size: 68px;
+    background-image: url(./imgs/scribbleicon.png);
+    background-size: 375px;
+    background-repeat: no-repeat;
+    background-position-x: 12%;
+    background-position-y: 12%;
+}
+
+.section2_left p {
+    text-align: left;
+    font-size: 32px;
+    margin: 0;
+    padding: 10px;
+    padding-left: 5vw;
 }
 
 /* MAIN - SECTION 3
