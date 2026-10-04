@@ -1,0 +1,177 @@
+/* Author: Hellbender Creative Studio
+   Date created: Oct 3rd 2026*/
+   :root {
+    --paletteOrange: #ED6206;
+    --paletteGreen: #053406;
+   }
+
+@font-face {
+    font-family: SoreanBold;
+    src: url(./fonts/SoreanBold.otf);
+}
+
+   * {
+    border: 1px;
+    border-style: solid;
+    border-color: red;
+    text-align: center;
+    /*font-family: ;*/
+   }
+
+   html {
+    margin: 0;
+   }
+
+   body {
+    padding: 0;
+    margin: 0 auto;
+    background-image: url("imgs/Background.png");
+   }
+
+/* GLOBAL
+-------------------------------- */
+
+.textOrange {
+    color: var(--paletteOrange);
+}
+
+.sorean {
+    font-family: SoreanBold;
+}
+
+/* HEADER
+-------------------------------- */
+
+header {
+    position: relative;
+}
+
+nav {
+    padding: 0;
+    /* display: inline-block; */
+    float: right;
+
+}
+
+.nav_logo {
+      display: block;
+    /* justify-content: center */;
+    margin: 0;
+    padding: 0;
+    height: 15%;
+    width: 15%;
+    aspect-ratio: 1 / 1;
+    display: inline-flex;
+}
+
+.nav_list {
+    margin: 0;
+    padding: 20px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav_list_item {
+    display: inline;
+    padding-top: 10%;
+    margin: 5px;
+    
+}
+
+.nav_button {
+    text-decoration: none;
+}
+
+.divider_bar {
+    background-color: blueviolet;
+    padding: 5px;
+    margin-top: 4px;
+}
+
+/* MAIN - SECTION 1
+-------------------------------- */
+
+.section1_container {
+    /* display: flex; */
+    width: 100%;
+    height: 200px;
+    /* justify-content: center; */
+}
+
+.section1_pics {
+    height: 100%; 
+    width: 100%;
+    z-index: -1;
+}
+
+.section1_button {
+    position: relative;
+    z-index: 1;
+    font-size: 16px;
+    padding: 10px;
+    color: white;
+    background-color: var(--paletteOrange);
+    bottom: 50px;
+    border-radius: 6px;
+}
+
+/* MAIN - SECTION 2
+-------------------------------- */
+
+.section2 {
+    background-color: var(--paletteGreen);
+    color: white;
+}
+
+.section2_img {
+    height: 100%;
+    width: 100%;
+}
+
+/* MAIN - SECTION 3
+-------------------------------- */
+
+/* FOOTER
+-------------------------------- */
+
+footer {
+    
+    display: flex;
+    margin-top: 50px;
+    color: white;
+}
+
+.footer_border {
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin-top: -400px;
+    margin-bottom: -200px;
+    position: absolute;
+}
+
+.footer_list1 {
+    list-style-type: none;
+    float: right;
+    z-index: 2;
+}
+
+.footer_list1 li {
+    display: inline;
+}
+
+.footer_list1 li a {
+    text-decoration: none;
+}
+
+.footer_list2 {
+    z-index: 2;
+    list-style-type: none;
+    float: right;
+}
+
+.footer_list2 li {
+    display: inline;
+}
