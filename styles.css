@@ -11,11 +11,10 @@
 }
 
    * {
-    border: 1px;
+    /* border: 1px;
     border-style: solid;
-    border-color: red;
+    border-color: red; */
     text-align: center;
-    /*font-family: ;*/
    }
 
    html {
@@ -43,7 +42,7 @@
 -------------------------------- */
 
 header {
-    position: relative;
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -68,8 +67,8 @@ nav {
 .nav_logo {
     margin: 0;
     padding: 0;
-    height: 140px;
-    width: 140px;
+    height: 100px;
+    width: 100px;
     aspect-ratio: 1 / 1;
     display: inline-flex;
 }
@@ -144,7 +143,7 @@ nav {
 -------------------------------- */
 
 .section1 h1 {
-    font-size: 68px;
+    font-size: 60px;
     margin-top: 12px;
     margin-bottom: 12px;
 }
@@ -228,39 +227,81 @@ nav {
 -------------------------------- */
 
 footer {
-    
     display: flex;
-    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-top: 110px;
+    padding-bottom: 20px;
     color: white;
+    width: 100vw;
+    background-image: url(./imgs/bottompagerip.png);
+    background-size: 1280px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position-x: center;
+    background-position-y: 81%;
 }
 
-.footer_border {
-    z-index: -1;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    margin-top: -400px;
-    margin-bottom: -200px;
+footer div {
+    display: inline-flex;
+}
+
+footer div h1 {
+    font-size: 96px;
+    margin: 0;
+    margin-bottom: -25px;
+}
+
+.footer_nav_logo {
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    width: 100px;
+    aspect-ratio: 1 / 1;
+    display: inline-flex;
 }
 
 .footer_list1 {
+    margin: 8px;
+    padding: 0;
     list-style-type: none;
-    z-index: 2;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
 }
 
 .footer_list1 li {
     display: inline;
+    margin: 4px;
 }
 
-.footer_list1 li a {
+.footer_link {
     text-decoration: none;
+}
+
+.footer_link:visited {
+    text-decoration: none;
+    color: white;
 }
 
 .footer_list2 {
     z-index: 2;
     list-style-type: none;
+    align-self: center;
 }
 
 .footer_list2 li {
     display: inline;
+}
+
+
+
+.privacy_policy {
+    text-align: left;
+    margin: 20px;
+}
+
+.privacy_policy_list li {
+    text-align: left;
 }
