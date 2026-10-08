@@ -358,6 +358,100 @@ footer div h1 {
     color: white;
 }
 
+.story {
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+}
+
+.story_desc h1 {
+    padding-right: 10px;
+    text-align: left;
+    font-size: 64px;
+}
+
+.story_desc h2 {
+    padding-right: 50px;
+    text-align: left;
+    font-size: 32px;
+}
+
+.story img {
+    height: 45vw;
+    width: 45vw;
+}
+
+.about_orange {
+    display: flex;
+    flex-direction: row;
+    background-image: url(./imgs/aboutorangebackground.png);
+    background-repeat: repeat;
+}
+
+.about_orange img {
+    height: 45vw;
+    width: 45vw;
+}
+.about_orange_text {
+    padding-right: 30px;
+}
+
+.about_orange_text h1 {
+    color: white;
+    text-align: right;
+    font-size: 52px;
+    margin-left: -30px;
+}
+
+.about_orange_text h2 {
+    color: white;
+    text-align: right;
+    font-size: 32px;
+}
+
+.diners {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    padding-top: 50px
+}
+
+.diners img {
+    height: 30vw;
+    width: 45vw;
+    border-radius: 12px;
+}
+
+.diners_text {
+    padding-right: 10px;
+}
+
+.diners_text img {
+    position: absolute;
+    /* margin-left: 40vw;
+    margin-right: 40vw; */
+    /* margin-top: -260px; */
+    top: 1712px;
+    left: -10px;
+    height: 140px;
+    width: 140px;
+    rotate: -20deg;
+}
+
+.diners_text h1 {
+    margin: 0;
+    padding-left: 22px;
+    text-align: left;
+    font-size: 64px;
+}
+
+.diners_text h2 {
+    margin: 0;
+    padding-left: 10px;
+    text-align: left;
+    font-size: 32px;
+}
+
 /* SHOP PAGE
 -------------------------------- */
 
