@@ -303,6 +303,17 @@ nav {
     width: 50vw;
 }
 
+.radio_container {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.radio_container label {
+    margin-right: 20px;
+}
+
 .form_submit {
     margin-left: auto;
     padding: 5px 30px;
