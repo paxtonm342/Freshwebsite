@@ -50,31 +50,33 @@
         </section>
         <section class="section3">
             <h1 class="section_header textOrange">Questions?<br>Reach out to us for more information!</h1>
-            <div>
-                <h3 class="">Contact Information</h3>
-                <h4 class="">Say something to start a live chat!</h4>
+            <div class="contact_container">
+                <div class="info_container">
+                    <h3 class="">Contact Information</h3>
+                    <h4 class="">Say something to start a live chat!</h4>
+                </div>
+                <form class="contact_form">
+                    <label for="form_first_name">First Name</label>
+                    <input type="text" id="name" name="form_first_name" size="20" maxlength="30" required="required" />
+                    <label for="form_last_name">Last Name</label>
+                    <input type="text" id="name" name="form_last_name" size="20" maxlength="30" required="required" />
+                    <br>
+                    <label for="form_email">Email</label>
+                    <input type="email" id="name" name="form_email" size="20" maxlength="30" required="required" />
+                    <label for="form_phone">Phone Number</label>
+                    <input type="tel" id="name" name="form_phone" size="20" minlength="10" maxlength="10" required="required" />
+                    <br>
+                    <label for="inquiry">Select Subject?</label>
+                    <input type="radio" name="inquiry" value="General_Inquiry">General Inquiry
+                    <input type="radio" name="inquiry" value="General_Inquiry">General Inquiry
+                    <input type="radio" name="inquiry" value="General_Inquiry">General Inquiry
+                    <input type="radio" name="inquiry" value="General_Inquiry">General Inquiry
+                    <br>
+                    <textarea id="message" name="form_message" cols="32" rows="1" placeholder="Write your message.." required="required"></textarea>
+                    <br>
+                    <input class="form_submit" type="submit" name="send_message" value="Send Message" />
+                </form>
             </div>
-            <form>
-                <label for="form_first_name">First Name</label>
-                <input type="text" id="name" name="form_first_name" size="20" maxlength="30" required="required" />
-                <label for="form_last_name">Last Name</label>
-                <input type="text" id="name" name="form_last_name" size="20" maxlength="30" required="required" />
-                <br>
-                <label for="form_email">Email</label>
-                <input type="email" id="name" name="form_email" size="20" maxlength="30" required="required" />
-                <label for="form_phone">Phone Number</label>
-                <input type="tel" id="name" name="form_phone" size="20" minlength="10" maxlength="10" required="required" />
-                <br>
-                <label for="inquiry">Select Subject?</label>
-                <input type="radio" name="inquiry" value="General_Inquiry">General Inquiry
-                <input type="radio" name="inquiry" value="General_Inquiry">General Inquiry
-                <input type="radio" name="inquiry" value="General_Inquiry">General Inquiry
-                <input type="radio" name="inquiry" value="General_Inquiry">General Inquiry
-                <br>
-                <textarea id="message" name="form_message" cols="32" rows="1" placeholder="Write your message.." required="required"></textarea>
-                <br>
-                <input class="form_submit" type="submit" name="send_message" value="Send Message" />
-            </form>
         </section>
     </main>
     <footer>
