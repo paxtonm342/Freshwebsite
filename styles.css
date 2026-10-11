@@ -569,7 +569,18 @@ footer div h1 {
 
 .shop_title {
     margin: 10px;
-    font-size: 40px;
+    font-size: 50px;
+    
+}
+
+.shop_button {
+    color: white;
+    background-color: var(--paletteGreen);
+    padding: 10px 20px;
+    margin: 0 auto auto 0;
+    border-radius: 12px;
+    font-size: 20px;
+    align-items: flex-start;
 }
 
 .coocoo {
@@ -594,20 +605,22 @@ footer div h1 {
     grid-row-end: 3;
 }
 
-/* .drink_desc1 {
-    grid-column-start: 7;
-    grid-column-end: 13;
-    grid-row-start: 1;
-    grid-row-end: 2;
+.drink_title1,
+.drink_title2,
+.drink_title3,
+.drink_title4 {
+    text-align: left;
+    font-size: 40px;
 }
 
-.sb1 {
-    grid-column-start: 7;
-    grid-column-end: 13;
-    grid-row-start: 2;
-    grid-row-end: 3; 
-} */
-
+.drink_desc1,
+.drink_desc2,
+.drink_desc3,
+.drink_desc4 {
+    text-align: left;
+    color: grey;
+    font-size: 28px;
+}
 
 .diet {
     width: 45vw;
@@ -667,4 +680,13 @@ footer div h1 {
     grid-column-end: 7;
     grid-row-start: 7;
     grid-row-end: 9;
+}
+
+.coocoobox,
+.orangebox,
+.dietbox,
+.strawbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
